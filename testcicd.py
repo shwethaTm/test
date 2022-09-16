@@ -8,7 +8,7 @@ def hello_world(request):
         `make_response <http://flask.pocoo.org/docs/1.0/api/#flask.Flask.make_response>`.
     """
     request_json = request.get_json()
-    num = 4
+    num = true
     if num >= 0:
       if num == 0:
         print("Zero")
